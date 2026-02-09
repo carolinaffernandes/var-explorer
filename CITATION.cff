@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: "Var-Explorer"
+message: "If you use this pipeline, please cite it as below."
+type: software
+
+authors:
+  - family-names: "F. C. dos Santos"
+    given-names: "Maria Carolina"
+
+version: "0.1.0"
+date-released: 2026-02-09
+
+repository-code: "https://github.com/carolinaffernandes/var-explorer"
+
+keywords:
+  - somatic variants
+  - VCF analysis
+  - ANNOVAR
+  - mutational signatures
+  - cancer genomics
+
+license: "CC-BY-NC-4.0"
