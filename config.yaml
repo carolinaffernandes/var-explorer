@@ -1,0 +1,43 @@
+settings:
+  author: "Maria Carolina F. Santos / DNA Repair Lab"
+
+#P.S.: If your analysis is done by group, you need to add 'groups' to the key (e.g., "group total")
+
+pipelines:
+  total:
+    input_dir: "path/to/vcf/dir"
+    output_dir: "results"
+    report_title: "title-report"
+    html_filename: "report-variants.html"
+
+  groups_total:
+    input_dir: "path/to/vcf/dir"
+    output_dir: "results"
+    report_title: "title-groups"
+    html_filename: "report-groups-variants.html"
+
+
+#Usually, for DP and AF analisys, we used total and exclusive variants
+
+summary_settings:
+  limit_dp_x_min: 0
+  limit_dp_x_max: 200
+  limit_af_x_min: 0.05
+  limit_af_x_max: 1.0
+  # Y axis
+  # Use 0 so that the script calculates the maximum automatically (with a 10% margin)
+  limit_dp_y_max: 0  
+  limit_af_y_max: 0
+
+summary_pipelines:
+  total:
+    input_dir: "path/to/annotated/variants/directory"
+    output_dir: "results/"
+    report_title: "title-summary"
+    html_filename: "report-summary.html"
+  exclusive:
+    input_dir: "path/to/annotated/variants/directory"
+    output_dir: "results/"
+    report_title: "title-summary-exclusive"
+    html_filename: "report-summary-exclusive.html"
+
