@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18563349.svg)](https://doi.org/10.5281/zenodo.18563349)
+
+
 ## Overview
 
 This pipeline is an **exploratory framework for the analysis of variant call files (.vcf)** and vcf files annotated with **ANNOVAR**.

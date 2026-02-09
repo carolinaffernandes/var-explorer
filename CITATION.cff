@@ -4,11 +4,13 @@ message: "If you use this pipeline, please cite it as below."
 type: software
 
 authors:
-  - family-names: "F. C. dos Santos"
-    given-names: "Maria Carolina"
+  - family-names: "dos Santos"
+    given-names: "Maria Carolina Fernandes Cabral"
+    orcid: https://orcid.org/0000-0003-3319-5775
 
 version: "0.1.0"
 date-released: 2026-02-09
+doi: 10.5281/zenodo.18563349
 
 repository-code: "https://github.com/carolinaffernandes/var-explorer"
 
