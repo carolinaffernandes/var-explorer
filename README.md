@@ -60,9 +60,7 @@ Variants are categorized into four biological impact levels:
 | **LOW** | Synonymous change with minimal functional impact |
 | **MODIFIER** | Non-coding or uncertain functional consequence |
 
-This classification is conceptually consistent with  
-**VEP / SnpEff impact annotations** and is commonly used in  
-**somatic variant prioritization**.
+This classification is conceptually consistent with **VEP / SnpEff impact annotations** and is commonly used in **somatic variant prioritization**.
 
 ---
 
@@ -77,14 +75,13 @@ The pipeline produces:
 - **Chromosomal distribution**
 - **Base substitution types (SBS-6, COSMIC-style ordering)**
 
-All figures are exported as **publication-ready PNG files**  
-and summarized in an **interactive HTML report**.
+All figures are exported as **publication-ready PNG files** and summarized in an **interactive HTML report**.
 
 ---
 
 ## Documentation and references
 
-### Variant annotation tools
+#### Variant annotation tools
 
 If you use this pipeline in scientific work, please also consider citing the annotation frameworks conceptually related to the impact classification:
 
