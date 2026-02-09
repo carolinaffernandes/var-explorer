@@ -156,7 +156,7 @@ def save_bar_plot(mean_dict, std_dict, title, outpath, color_map=None,
     else:
         plt.bar(labels, values, yerr=yerr_val, color=colors,
                 edgecolor='black', alpha=0.9, capsize=3)
-        plt.xticks(rotation=0, fontsize=9)
+        plt.xticks(rotation=45, fontsize=9)
 
     plt.title(title, fontweight='bold', fontsize=11)
     plt.tight_layout()
